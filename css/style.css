@@ -20,15 +20,15 @@ body {
 
 .sidebar {
     width: 245px;
-    background-color: black;
+    background-color: rgba(229, 131, 4, 0.807);
 }
 
 .content {
     flex: 1;
-    background-color: rgba(8, 34, 90, 0.719);
+    background-color: rgb(86, 9, 154);
 
     .block {
-        background-color: darkmagenta;
+        background-color: rgb(9, 146, 18);
         width: 90%;
         height: 570px;
         margin-left: 3rem;
@@ -36,8 +36,9 @@ body {
 
 
         .row {
-            background-color: chartreuse;
-            height: 50px;
+            background-color: grey;
+            height: 95px;
+            margin-top: 40px;
 
 
             .col-2 {
