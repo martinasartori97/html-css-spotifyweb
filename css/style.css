@@ -11,3 +11,14 @@ body{
     display: flex;
     height: 100vh;
 }
+.sidebar{
+    width: 245px;
+    background-color: black;
+}
+.content{
+    flex: 1;
+    background-color: blue;
+}
+.block{
+    
+}
