@@ -28,8 +28,11 @@ body {
     background-color: rgba(8, 34, 90, 0.719);
 
     .block {
-        background-color: aqua;
-
+        background-color: darkmagenta;
+        width: 1200px;
+        height: 570px;
+        margin-left: 3rem;
+        margin-top: 7rem;
 
     }
 }
