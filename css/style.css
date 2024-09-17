@@ -26,6 +26,10 @@ body {
 .content {
     flex: 1;
     background-color: rgba(8, 34, 90, 0.719);
-}
 
-.block {}
+    .block {
+        background-color: aqua;
+
+
+    }
+}
