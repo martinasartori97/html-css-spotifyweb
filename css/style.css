@@ -21,6 +21,8 @@ body {
 .sidebar {
     width: 245px;
     background-color: rgba(229, 131, 4, 0.807);
+
+    @media (max-width: 600px) {}
 }
 
 .content {
@@ -42,7 +44,12 @@ body {
 
 
             .col-2 {
-                width: calc(100%/12)*2
+                background-color: pink;
+
+
+
+
+
             }
         }
 
