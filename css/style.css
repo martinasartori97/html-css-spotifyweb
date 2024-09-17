@@ -29,16 +29,18 @@ body {
 
     .block {
         background-color: darkmagenta;
-        width: 1200px;
+        width: 90%;
         height: 570px;
         margin-left: 3rem;
         margin-top: 7rem;
 
+        .row {
+            display: flex;
+            flex-direction: row;
+            width: 95%;
+            background-color: gray;
+        }
+
     }
-    .row{
-        display: flex;
-        
-        
-        background-color: gray;
-    }
+
 }
