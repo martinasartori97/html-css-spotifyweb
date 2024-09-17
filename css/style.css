@@ -36,11 +36,9 @@ body {
 
 
         .row {
-            display: flex;
-            flex-wrap: wrap;
+            background-color: chartreuse;
+            height: 50px;
 
-            margin: 0 -1rem;
-            padding: 1rem;
 
             .col-2 {
                 width: calc(100%/12)*2
