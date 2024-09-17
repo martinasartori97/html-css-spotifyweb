@@ -1,24 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     height: 100vh;
     overflow: hidden;
 }
-.container{
+
+.container {
     display: flex;
     height: 100vh;
+
+    @media (min-width: 1024px) {}
+
+
 }
-.sidebar{
+
+.sidebar {
     width: 245px;
     background-color: black;
 }
-.content{
+
+.content {
     flex: 1;
-    background-color: blue;
+    background-color: rgba(8, 34, 90, 0.719);
 }
-.block{
-    
-}
+
+.block {}
