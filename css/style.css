@@ -34,11 +34,17 @@ body {
         margin-left: 3rem;
         margin-top: 7rem;
 
+
         .row {
             display: flex;
-            flex-direction: row;
-            width: 95%;
-            background-color: gray;
+            flex-wrap: wrap;
+
+            margin: 0 -1rem;
+            padding: 1rem;
+
+            .col-2 {
+                width: calc(100%/12)*2
+            }
         }
 
     }
