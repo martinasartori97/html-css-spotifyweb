@@ -31,7 +31,7 @@ body {
 
     .block {
         background-color: rgb(9, 146, 18);
-        width:calc(100%-245px);
+        width: calc(100%-245px);
         height: 570px;
         margin-left: 3rem;
         margin-top: 7rem;
@@ -41,14 +41,20 @@ body {
             background-color: grey;
             height: 95px;
             margin-top: 40px;
+            display: flex;
 
 
             .col-2 {
                 background-color: pink;
                 display: flex;
                 border-style: dashed;
-                flex: 1;
-                padding: 10px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                gap: 5px;
+                
+
+
+
 
 
 
@@ -61,7 +67,8 @@ body {
     }
 
 }
-.top{
+
+.top {
     height: calc(100%-70px);
     background-color: grey;
     display: flex;
@@ -71,9 +78,6 @@ body {
 .bottom {
     height: 70px;
     background-color: grey;
+    
 
 }
-
-
-
-    
