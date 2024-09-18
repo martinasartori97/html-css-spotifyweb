@@ -45,6 +45,10 @@ body {
 
             .col-2 {
                 background-color: pink;
+                display: flex;
+                border-style: dashed;
+                flex-direction: row;
+            
 
 
 
