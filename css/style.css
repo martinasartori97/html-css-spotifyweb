@@ -20,7 +20,7 @@ body {
 
 .sidebar {
     width: 245px;
-    background-color: rgba(229, 131, 4, 0.807);
+    background-color:black;
 
     @media (max-width: 700px) {}
 }
@@ -48,8 +48,7 @@ body {
                 background-color: pink;
                 display: flex;
                 border-style: dashed;
-                padding-top: 20px;
-                padding-bottom: 20px;
+                padding-bottom: 20rem;
                 gap: 5px;
                 
 
@@ -79,5 +78,10 @@ body {
     height: 70px;
     background-color: grey;
     
+
+}
+.logo{
+    width: 10rem;
+    height: 10rem;
 
 }
