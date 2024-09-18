@@ -32,12 +32,24 @@ body {
     height: calc(100% - 70px);
 }
 
+
+
 .sidebar {
     width: 245px;
     background-color: black;
 
     @media (max-width: 700px) {}
 }
+
+
+.logo {
+    width: 7rem;
+    height: 7rem;
+
+
+}
+
+
 
 .content {
     flex: 1;
@@ -46,21 +58,32 @@ body {
     padding-right: 3px;
     overflow-x: hidden;
 
-
-    .block {
-        background-color: rgb(9, 146, 18);
-        width: calc(100% - 245px);
-        margin-left: 3rem;
+}
 
 
+.bar {
+    display: flex;
+    
+}
 
-        .row {
-            background-color: grey;
-            height: 95px;
-            margin-top: 40px;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 5px;
+
+.block{
+    background-color: green;
+    width: calc(100% - 245px);
+    margin-left: 3rem;
+}
+
+
+
+
+.row {
+ background-color: blue;
+ height: 95px;
+ margin-top: 40px;
+ display: flex;
+ justify-content: space-evenly;
+            
+            
 
 
             .col-2 {
@@ -79,18 +102,8 @@ body {
 
 .bottom {
     height: 70px;
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.582);
+    width: 100%;
 
 
-}
-
-.logo {
-    width: 10rem;
-    height: 10rem;
-
-}
-
-.bar {
-    display: flex;
-    
 }
