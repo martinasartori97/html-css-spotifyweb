@@ -22,7 +22,7 @@ body {
     width: 245px;
     background-color: rgba(229, 131, 4, 0.807);
 
-    @media (max-width: 600px) {}
+    @media (max-width: 700px) {}
 }
 
 .content {
@@ -31,7 +31,7 @@ body {
 
     .block {
         background-color: rgb(9, 146, 18);
-        width: 90%;
+        width:calc(100%-245px);
         height: 570px;
         margin-left: 3rem;
         margin-top: 7rem;
@@ -48,6 +48,7 @@ body {
                 display: flex;
                 border-style: dashed;
                 flex: 1;
+                padding: 10px;
 
 
 
@@ -62,6 +63,7 @@ body {
 }
 .top{
     height: calc(100%-70px);
+    background-color: grey;
 
 }
 
