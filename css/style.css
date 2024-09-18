@@ -17,7 +17,19 @@ body {
 
 
 }
+/* region utility */
 
+.d-flex{
+    display: flex;
+}
+
+
+/* endregion utility */
+
+
+.top{
+    height: calc(100% - 70px);
+}
 .sidebar {
     width: 245px;
     background-color: black;
