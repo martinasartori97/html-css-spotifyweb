@@ -1,3 +1,21 @@
+:root{
+    --primary:#d2d2d2;
+    --secondary:#a3a3a3;
+    --col-bg:#141922;
+    --col-bg-header:#080b12;
+    --col-bg-footer:#282828;
+    --col-underline:#a3f02e;
+}
+.cw{
+    color: white;
+}
+.cb{
+    color: black;
+}
+
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +24,51 @@
 
 body {
     height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y:hidden;
+
+}
+.debug{
+    border: 1px dashed black;
+    
+}
+header{
+    float: right;
+    width: calc(100% - 245px);
+    height: 10%;
+    background-color:var(--col-bg-header);
+    @media (max-width: 576px){
+        width: 90%;
+        
+    }
+}
+nav{
+    width: 245px;
+    background-color:black;
+    height: 90%;
+    float: left;
+    @media (max-width: 576px){
+        width: 10%;
+        
+    }
+}
+main{
+    background-color: var(--col-bg);
+    width: calc(100% - 245px);
+    height: 80%;
+    float: right;
+    @media (max-width: 576px){
+        width: 90%;
+        
+    }
+
+}
+footer{
+    width: 100%;
+    background-color: var(--col-bg-footer);
+    height: 10%;
+    float: right;
+
 }
 
 .container {
@@ -77,11 +139,13 @@ body {
 .bottom {
     height: 70px;
     background-color: grey;
+    width: 100%;
     
 
 }
 .logo{
     width: 10rem;
     height: 10rem;
+    
 
 }
