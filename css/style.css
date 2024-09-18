@@ -17,9 +17,10 @@ body {
 
 
 }
+
 /* region utility */
 
-.d-flex{
+.d-flex {
     display: flex;
 }
 
@@ -27,9 +28,10 @@ body {
 /* endregion utility */
 
 
-.top{
+.top {
     height: calc(100% - 70px);
 }
+
 .sidebar {
     width: 245px;
     background-color: black;
@@ -40,13 +42,16 @@ body {
 .content {
     flex: 1;
     background-color: rgb(86, 9, 154);
+    padding-left: 3px;
+    padding-right: 3px;
+    overflow-x: hidden;
+
 
     .block {
         background-color: rgb(9, 146, 18);
         width: calc(100% - 245px);
-        height: 570px;
         margin-left: 3rem;
-        margin-top: 7rem;
+
 
 
         .row {
@@ -55,6 +60,7 @@ body {
             margin-top: 40px;
             display: flex;
             flex-wrap: wrap;
+            gap: 5px;
 
 
             .col-2 {
@@ -82,4 +88,9 @@ body {
     width: 10rem;
     height: 10rem;
 
+}
+
+.bar {
+    display: flex;
+    
 }
