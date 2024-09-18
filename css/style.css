@@ -56,3 +56,8 @@ body {
     }
 
 }
+.player{
+    height: calc(100%-70px) :
+    background-color: grey
+    
+}
