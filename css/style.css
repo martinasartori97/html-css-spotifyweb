@@ -144,6 +144,7 @@ h2{
     background-color: blue;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     
 
 }
@@ -154,6 +155,7 @@ h2{
     padding: 0.5rem;
     display: flex;
     margin: auto;
+    width: calc((100% / 12)*2);
     
     
     
