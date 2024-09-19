@@ -77,6 +77,39 @@ body {
     padding-left: 0.5rem;
 }
 
+
+.span-1{
+    color: white;
+}
+
+
+span{
+    color: rgba(128, 128, 128, 0.586);
+}
+
+
+.piu{
+    font-size: 30px;
+    padding-left: 0.5rem;
+    
+
+}
+
+.playlist{
+    padding-left: 0.5rem;
+    padding: 0.5rem;
+}
+
+.crea_playlist{
+    
+}
+
+
+li{
+    color: rgba(128, 128, 128, 0.586);
+    padding: 0.5rem;
+}
+
 .content {
     flex: 1;
     background-color: #2a2a33;
