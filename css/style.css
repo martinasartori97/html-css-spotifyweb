@@ -9,11 +9,15 @@ body {
     overflow: hidden;
 }
 
+@media screen and(max-width:1024px) {}
+
+
+
 .container {
 
     height: 100vh;
 
-    @media (min-width: 1024px) {}
+
 
 
 }
@@ -40,7 +44,7 @@ body {
     width: 245px;
     background-color: black;
 
-    @media (max-width: 700px) {}
+
 }
 
 
@@ -111,6 +115,8 @@ li {
 h2 {
     color: white;
     padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
 }
 
 h5 {
@@ -154,10 +160,9 @@ button {
     margin-left: 3rem;
 }
 
-.lista{
+.lista {
     color: white;
     display: flex;
-    display: inline;
     list-style: none;
     justify-content: space-around;
 }
@@ -188,3 +193,5 @@ img {
     background-color: rgb(54 50 50 / 82%);
     width: 100%;
 }
+
+@media screen and (max-width:480px) {}
