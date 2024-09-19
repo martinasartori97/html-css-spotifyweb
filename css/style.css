@@ -110,6 +110,11 @@ li{
     padding: 0.5rem;
 }
 
+h2{
+    color: white;
+    padding-left: 0.5rem;
+}
+
 .content {
     flex: 1;
     background-color: #2a2a33;
@@ -139,6 +144,7 @@ li{
     background-color: blue;
     display: flex;
     justify-content: space-evenly;
+    
 
 }
 
@@ -147,6 +153,10 @@ li{
     border-style: groove;
     padding: 0.5rem;
     display: flex;
+    margin: auto;
+    
+    
+    
 
 
 
