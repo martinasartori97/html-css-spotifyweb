@@ -51,6 +51,29 @@ body {
 
 }
 
+.navigation {
+    color: white;
+}
+
+.icon_home{
+    height: 20px;
+    padding-right: 0.5rem;
+    
+    
+
+}
+
+.icon_search{
+    height: 1rem;
+    padding-right: 0.5rem;
+    
+}
+
+.icon_library{
+    height: 1rem;
+    padding-right: 0.5rem;
+}
+
 .content {
     flex: 1;
     background-color: #2a2a33;
@@ -89,13 +112,13 @@ body {
     padding: 0.5rem;
     display: flex;
 
-    
+
 
 }
 
 
 .bottom {
     height: 70px;
-    background-color:  rgb(54 50 50 / 82%);
+    background-color: rgb(54 50 50 / 82%);
     width: 100%;
 }
