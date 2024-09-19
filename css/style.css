@@ -143,12 +143,11 @@ h5 {
 button {
     background-color: rgb(2, 2, 42);
     color: white;
-    margin-left: 1050px;
-    border-radius: 50%;
-    padding: 0.5rem;
+    margin-left: auto;
+    border-radius: 20px;
+    padding: 0.5rem 3rem;
     border-color: white;
     height: 50%;
-    width: 50%;
     margin-top: 1rem;
     margin-right: 1rem;
 
@@ -194,4 +193,29 @@ img {
     width: 100%;
 }
 
-@media screen and (max-width:480px) {}
+@media screen and (max-width:768px) {
+    .sidebar {
+        width: 210px;
+     }
+     .lista {
+        
+        display: flex;
+        flex-wrap:wrap;
+       
+    }
+    
+}
+
+@media screen and (max-width:480px){ 
+    .sidebar {
+        width: 50px;
+    }
+    .lista {
+        
+        display: flex;
+        flex-direction: column;
+       
+    }
+    
+    
+}
