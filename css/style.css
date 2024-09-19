@@ -58,6 +58,7 @@ body {
 .icon_home{
     height: 20px;
     padding-right: 0.5rem;
+    padding-left: 0.5rem;
     
     
 
@@ -66,12 +67,14 @@ body {
 .icon_search{
     height: 1rem;
     padding-right: 0.5rem;
+    padding-left: 0.5rem;
     
 }
 
 .icon_library{
     height: 1rem;
     padding-right: 0.5rem;
+    padding-left: 0.5rem;
 }
 
 .content {
