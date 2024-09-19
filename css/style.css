@@ -30,6 +30,8 @@ body {
 
 .top {
     height: calc(100% - 70px);
+    background-color: blue;
+
 }
 
 
@@ -63,11 +65,16 @@ body {
 
 .bar {
     display: flex;
+    height: 70px;
+    background-color: rgb(2, 2, 42);
     
+    
+    
+
 }
 
 
-.block{
+.block {
     background-color: green;
     width: calc(100% - 245px);
     margin-left: 3rem;
@@ -77,26 +84,16 @@ body {
 
 
 .row {
- background-color: blue;
- height: 95px;
- margin-top: 40px;
- display: flex;
- justify-content: space-evenly;
-            
-            
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col-2 {
+    border-style: dashed;
+    padding: 0.5rem;
 
 
-            .col-2 {
-                background-color: pink;
-                display: flex;
-                border-style: dashed;
-                padding-bottom: 20rem;
-                gap: 5px;
-
-            }
-        }
-
-    }
 
 }
 
