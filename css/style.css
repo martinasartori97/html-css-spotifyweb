@@ -55,69 +55,71 @@ body {
     color: white;
 }
 
-.icon_home{
+.icon_home {
     height: 20px;
     padding-right: 0.5rem;
     padding-left: 0.5rem;
-    
-    
+
+
 
 }
 
-.icon_search{
+.icon_search {
     height: 1rem;
     padding-right: 0.5rem;
     padding-left: 0.5rem;
-    
+
 }
 
-.icon_library{
+.icon_library {
     height: 1rem;
     padding-right: 0.5rem;
     padding-left: 0.5rem;
 }
 
 
-.span-1{
+.span-1 {
     color: white;
 }
 
 
-span{
+span {
     color: rgba(128, 128, 128, 0.586);
 }
 
 
-.piu{
+.piu {
     font-size: 30px;
     padding-left: 0.5rem;
-    
+
 
 }
 
-.playlist{
+.playlist {
     padding-left: 0.5rem;
     padding: 0.5rem;
 }
 
-.crea_playlist{
-    
-}
+.crea_playlist {}
 
 
-li{
+li {
     color: rgba(128, 128, 128, 0.586);
     padding: 0.5rem;
 }
 
-h2{
+h2 {
     color: white;
     padding-left: 0.5rem;
+}
+
+h5 {
+    color: white;
 }
 
 .content {
     flex: 1;
-    background-color: #2a2a33;
+    background-color: rgb(2, 2, 42);
     padding-left: 3px;
     padding-right: 3px;
     overflow-x: hidden;
@@ -132,36 +134,52 @@ h2{
     width: 100%;
 }
 
+button {
+    background-color: rgb(2, 2, 42);
+    color: white;
+    margin-left: 1050px;
+    border-radius: 50%;
+    padding: 0.5rem;
+    border-color: white;
+    height: 50%;
+    width: 50%;
+    margin-top: 1rem;
+    margin-right: 1rem;
+
+}
+
 
 .block {
-    background-color: green;
     width: calc(100% - 245px);
     margin-left: 3rem;
 }
 
+.lista{
+    color: white;
+    display: flex;
+    display: inline;
+    list-style: none;
+    flex-direction: row;
+}
+
 
 .row {
-    background-color: blue;
+    background-color: rgb(2, 2, 42);
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
-    
+
 
 }
 
 
 .col-2 {
-    border-style: groove;
     padding: 0.5rem;
     display: flex;
-    margin: auto;
     width: calc((100% / 12)*2);
-    
-    
-    
+}
 
-
-
+img {
+    max-width: 100%;
 }
 
 
