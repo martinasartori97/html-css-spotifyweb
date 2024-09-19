@@ -51,11 +51,9 @@ body {
 
 }
 
-
-
 .content {
     flex: 1;
-    background-color: rgb(86, 9, 154);
+    background-color: #2a2a33;
     padding-left: 3px;
     padding-right: 3px;
     overflow-x: hidden;
@@ -67,10 +65,7 @@ body {
     display: flex;
     height: 70px;
     background-color: rgb(2, 2, 42);
-    
-    
-    
-
+    width: 100%;
 }
 
 
@@ -81,26 +76,26 @@ body {
 }
 
 
-
-
 .row {
     background-color: blue;
     display: flex;
     justify-content: space-evenly;
+
 }
+
 
 .col-2 {
-    border-style: dashed;
+    border-style: groove;
     padding: 0.5rem;
+    display: flex;
 
-
+    
 
 }
+
 
 .bottom {
     height: 70px;
-    background-color: rgba(128, 128, 128, 0.582);
+    background-color:  rgb(54 50 50 / 82%);
     width: 100%;
-
-
 }
